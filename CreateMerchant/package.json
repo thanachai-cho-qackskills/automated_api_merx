@@ -1,0 +1,16 @@
+{
+  "name": "createmerchant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "playwright:staging":"cross-env test_env=staging COMMON_CONFIG_FILE=env/common.env npx playwright test --workers=1 --config=playwright.config.ts --project=NoHaveBrowser"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.44.1",
+    "@types/node": "^20.14.5"
+  }
+}

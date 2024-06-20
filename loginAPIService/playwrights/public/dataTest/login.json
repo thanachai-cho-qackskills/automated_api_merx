@@ -1,0 +1,40 @@
+{
+    "endpoint": {
+        "post": "/v1/auth/login"
+    },
+    "successLogin": {
+        "platform": "AdminPanel",
+        "username": "automateapi",
+        "password": "Ok@23456"
+    },
+    "platformisEmpty":{
+        "platform": "",
+        "username": "automateapi",
+        "password": "Ok@23456"
+    },
+    "platformisInvalid":{
+        "platform": "Admin",
+        "username": "automateapi",
+        "password": "Ok@23456"
+    },
+    "usernameisEmpty":{
+        "platform": "Adminpanel",
+        "username": "",
+        "password": "Ok@23456"
+    },
+    "usernameLowcaseInvalid":{
+        "platform": "Adminpanel",
+        "username": "Automateapi",
+        "password": "Ok@23456"
+    },
+    "passwordisEmpty":{
+        "platform": "Adminpanel",
+        "username": "automateapi",
+        "password": ""
+    },
+    "passwordisInvalid":{
+        "platform": "Adminpanel",
+        "username": "automateapi",
+        "password": "aaaaat21"
+    }
+}

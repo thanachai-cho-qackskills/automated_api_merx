@@ -1,0 +1,55 @@
+{
+    "successResponse":{
+        "access_token": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkEyS0dMM3pzUmNoeUI0M09qYWl4eiJ9.eyJuaWNrbmFtZSI6ImF1dG9tYXRlYXBpIiwibmFtZSI6ImF1dG9tYXRlYXBpQGdtYWlsLmNvbSIsInBpY3R1cmUiOiJodHRwczovL3MuZ3JhdmF0YXIuY29tL2F2YXRhci9iNjc3MWE1NGE0OGMxY2Q2NjM4YTljZDljZDE3ZjMwND9zPTQ4MCZyPXBnJmQ9aHR0cHMlM0ElMkYlMkZjZG4uYXV0aDAuY29tJTJGYXZhdGFycyUyRmF1LnBuZyIsInVwZGF0ZWRfYXQiOiIyMDI0LTA2LTEyVDA4OjQxOjE2LjUxN1oiLCJlbWFpbCI6ImF1dG9tYXRlYXBpQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwiaXNzIjoiaHR0cHM6Ly9kZXYtMmZmdzVyMTI0MGlpN3IwZi51cy5hdXRoMC5jb20vIiwiYXVkIjoiZWk2U3FHSXgxOVlsdkpmV0xMMEZSRmNkTUhqNG04cGEiLCJpYXQiOjE3MTgxODE2NzYsImV4cCI6MTcxODI2ODA3Niwic3ViIjoiYXV0aDB8NjY0MmYzNjczNzA2ZWJkYTdkODFlZDMzIn0.b9qgJ02eBpMgfYOkCOQPMiWKK_YGS935jjPJGD3DZ6ZMcfpFwA38CLx2AHVpNiJRl0XOqxvCsAjkbRUhbfyKTsSK36UWFYENWfLaRM5baQhRAgNLky_Dg_taDuhYJD4XR0KZC7J9fERZYze5iYF5UB0LCqtV59s1qyoCNxE8UxeaYq8m-qtLq6wCdEFtVRBfo0OJDheNn0N_sFhZlm9grK9jItJ6UZKLDVmi1WZZCWvBa2ITCccHOfusuz7O_doZTF124eo2hw84sqG7nw1VF38MQFcFBNzi_jHgi7UxH4jXwd1V_yaDkjkeDM2HU7fFjy1TiC3GS3c95qPu0L99UQ",
+        "refresh_token": "iR5cyufuyUldpchea1QVqT3bPYlJdwlrDnx9IwpeoygqU",
+        "platform": "AdminPanel"
+    },
+    "platformEmptyResponse":{
+        "message": [
+            "platform must be one of the following values: AdminPanel, PoS"
+        ],
+        "error": "Bad Request",
+        "statusCode": 400
+    },
+    "platformisInvalidResponse":{
+        "message": [
+            "platform must be one of the following values: AdminPanel, PoS"
+        ],
+        "error": "Bad Request",
+        "statusCode": 400
+    },
+    "usernameisEmptyResponse":{
+        "message": [
+            "platform must be one of the following values: AdminPanel, PoS",
+            "username must be longer than or equal to 3 characters",
+            "username must contain only letters and numbers"
+        ],
+        "error": "Bad Request",
+        "statusCode": 400
+    },
+    "usernameLowcaseInvalidResponse":{
+        "message": [
+            "platform must be one of the following values: AdminPanel, PoS",
+            "username must be a lowercase string"
+        ],
+        "error": "Bad Request",
+        "statusCode": 400
+    },
+    "passwordisEmptyResponse":{
+        "message": [
+            "platform must be one of the following values: AdminPanel, PoS",
+            "password must match /^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[!@#$%^&\\*\\?])[A-Za-z\\d!@#$%^&\\*\\?].*$/ regular expression",
+            "password must be longer than or equal to 8 characters"
+        ],
+        "error": "Bad Request",
+        "statusCode": 400
+    },
+    "passwordisInvalidResposne":{
+        "message": [
+            "platform must be one of the following values: AdminPanel, PoS",
+            "password must match /^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d)(?=.*[!@#$%^&\\*\\?])[A-Za-z\\d!@#$%^&\\*\\?].*$/ regular expression"
+        ],
+        "error": "Bad Request",
+        "statusCode": 400
+    }
+}
